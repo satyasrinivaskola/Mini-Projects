@@ -20,7 +20,7 @@ const customValidatePassword = (password) => {
            uppercase >= passwordCriteria.minUppercase &&
            numbers >= passwordCriteria.minNumbers &&
            symbols >= passwordCriteria.minSymbols)
-            {setErrorMessage("Password is strong")}
+            {setErrorMessage("Password is strong enough")}
     else{
         setErrorMessage("Password is not strong")
     }
