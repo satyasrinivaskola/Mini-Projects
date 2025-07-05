@@ -14,7 +14,7 @@ const validate=(value)=>{
     
     })){setErrorMessage("Password is strong")}
     else{
-        setErrorMessage("Password is not strong")
+        setErrorMessage("Password is not Valid")
     }
 
 }
